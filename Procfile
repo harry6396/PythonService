@@ -1,1 +1,1 @@
-SongsController.py
+web: python SongsController.py
