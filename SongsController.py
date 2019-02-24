@@ -12,10 +12,10 @@ app = Flask(__name__)
 @app.route("/")
 def hello1():
     mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        passwd="harry",
-        database="SongsCollection"
+        host="sql12.freemysqlhosting.net",
+        user="sql12280554",
+        passwd="qCu4mBHg3I",
+        database="sql12280554"
     )
     mycursor = mydb.cursor()
 
