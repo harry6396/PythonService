@@ -54,7 +54,7 @@ def hello(searchKeyWord):
     return flask.jsonify(json.dumps({'status':data}))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
 
 
